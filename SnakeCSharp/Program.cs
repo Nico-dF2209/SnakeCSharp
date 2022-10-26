@@ -1,10 +1,18 @@
-﻿namespace SnakeCSharp
+﻿using SnakeCSharp.Classes;
+
+namespace SnakeCSharp
 {
-    internal class Program
+    internal class Snake
     {
+        
+
+        
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Snake snake = new Snake();
+            Board board = new Board();
+            board.PrintBoard();
+            //Console.ReadKey;
         }
     }
 }
