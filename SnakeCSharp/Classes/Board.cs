@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace SnakeCSharp.Classes
 {
-    public class Board
+    public class Board : VarSup
     {
         public Board(){}
-        int Height = 20;
-        int Width = 30;
+        
         public void PrintBoard()
         {
             Console.Clear();
