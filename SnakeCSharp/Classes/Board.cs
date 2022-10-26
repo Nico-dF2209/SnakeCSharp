@@ -10,7 +10,7 @@ namespace SnakeCSharp.Classes
     {
         public Board(){}
         
-        public void PrintBoard()
+        public void AfficherTableau()
         {
             Console.Clear();
             for (int i = 1; i <= (Width + 2); i++)

@@ -15,8 +15,21 @@ namespace SnakeCSharp.Classes
         public int[] X = new int[50];
         public int[] Y = new int[50];
 
-        public int collectibleX, collectibeY;
+        public char touche = 'z';
+
+        public int collectibleX, collectibleY;
 
         public int segments = 3;
+
+        public Random random = new Random();
+
+        public void AfficherPerso(int x, int y) { }
+        public void Mechanique() { }
+        public void AfficherTableau() { }
+        public void EntreeTouches() { }
+
+
     }
+    
+        
 }
