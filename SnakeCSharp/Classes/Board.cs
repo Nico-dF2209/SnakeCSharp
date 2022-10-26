@@ -9,7 +9,7 @@ namespace SnakeCSharp.Classes
     public class Board : VarSup
     {
         public Board(){}
-        
+        // affiche un tableau dont les bords sont des #
         public void AfficherTableau()
         {
             Console.Clear();

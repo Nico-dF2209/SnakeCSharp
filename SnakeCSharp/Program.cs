@@ -16,16 +16,16 @@ namespace SnakeCSharp
 
         static void Main(string[] args)
         {
-            Snake snake = new Snake();
             Board board = new Board();
-            Touches touche = new Touches();
+            Perso perso = new Perso();
+            Mechaniques mecha = new Mechaniques();
 
             while (true)
             {
             board.AfficherTableau();
-            touche.EntreeTouches();
-            snake.AfficherPerso(2,2);
-            snake.Mechanique();
+            mecha.EntreeTouches();
+            perso.AfficherPerso(3,3);
+            mecha.Mechanique();
             }
             Console.ReadKey();
         }

@@ -9,14 +9,13 @@ namespace SnakeCSharp.Classes
     public class Perso : VarSup
     {
         public Perso() { }
-       
-        
+
+        //permet d'afficher le perso a l'emplacement choisit
         public void AfficherPerso(int x, int y)
         {
             Console.SetCursorPosition(x, y);
             Console.Write("0");
         }
 
-        
     }
 }

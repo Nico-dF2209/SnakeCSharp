@@ -10,16 +10,7 @@ namespace SnakeCSharp.Classes
     {
         public Touches(){}
 
-        ConsoleKeyInfo toucheInfo= new ConsoleKeyInfo();
-         
-        public void EntreeTouches()
-        {
-            if (Console.KeyAvailable)
-            {
-                toucheInfo=Console.ReadKey(true);
-                touche =toucheInfo.KeyChar;
-            }
-        }
+        
     }
 }
  
